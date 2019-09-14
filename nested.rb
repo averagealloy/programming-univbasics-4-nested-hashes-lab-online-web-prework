@@ -128,8 +128,12 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
+<<<<<<< HEAD
 programmer_hash[:dennis_ritchie] = {}
 programmer_hash[:dennis_ritchie][:known_for] = "Unix"
 programmer_hash[:dennis_ritchie][:languages] = ["C", "Assembly"]
+=======
+adding_to_dennis[:dennis_ritchie][:languages] = "Assembly"
+>>>>>>> 2485c6e1d08a04c04c2bec767340bb3415709d36
 return programmer_hash
 end
